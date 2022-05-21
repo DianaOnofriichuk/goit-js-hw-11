@@ -24,5 +24,5 @@ export default function createMarkup(photoes) {
     })
     .join('');
 
-  refs.gallery.innerHTML = markup;
+  refs.gallery.insertAdjacentHTML('beforeend', markup);
 }
